@@ -1,0 +1,140 @@
+#contact .heading {
+	padding-bottom: 50px;
+}
+
+#contact {
+	 background-color: #FFFFFE;
+	 color: #569FCA;
+	 padding: 50px;
+}
+
+.social {
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	text-align: center;
+ 	height: 300px;
+}
+
+.social .text {
+	padding-right: 30px;
+	text-align: center;
+ 	align-items: center;
+ }
+
+.talk {
+	font-size: xx-large;
+	color: #569FCA;
+}
+
+.textNumber {
+	font-size: xx-large;
+	color: #569FCA;
+}
+
+.obligation {
+	color: #2E2C59;	
+}
+
+input, textarea {
+	border-radius: 5px !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #2E2C59 !important;
+}
+
+.addressAndLinks {
+	font-size: large;
+	text-align: center;
+ 	align-items: center;
+	color: #569FCA;
+}
+
+.address {
+	text-align: right;
+}
+
+.links {
+	padding-left: 20px;
+	border-left: solid 1px #8B8D8C;
+}
+
+.links i {
+	color: #2E2C59;
+}
+
+.links * {
+	transition: 1s;
+	color: #569FCA;
+}
+
+.links span {
+	display: block;
+}
+
+.links i:hover {
+	color: #569FCA;
+}
+
+.clear {
+	padding-top: 20px;
+	float: right;
+	cursor: pointer;
+	text-decoration: underline;
+	transition: 1s;
+}
+
+.clear:hover {
+	color: #8EDCE6;	
+}
+
+.submit {
+	max-width: 100% !important;
+	text-align: center;
+}
+
+
+.submit-button {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 20px;
+	color: #2E2C59;
+	background-color: #FFFFFF;
+	border: none;
+	transition: 1s;
+	cursor: pointer;
+	border: solid 1px #569FCA;
+	width: 60% !important;
+	margin-left: 20%;
+	float: left !important;
+}
+
+.submit-button:hover {
+	color: #569FCA;
+	border: 1px solid #569FCA;
+}
+
+@media only screen and (max-width: 40em){ 
+	.clear {
+		padding-top: 20px;
+	}
+
+	.submit-button {
+		margin-top: 20px;
+	}
+
+  	#contact .text {
+		width: 100%;
+		clear: both !important;
+		display: block;
+		padding: 0px;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+	#contact .links {
+		border: none;
+		padding-bottom: 30px;
+	}
+}

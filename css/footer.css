@@ -1,0 +1,23 @@
+#footer {
+	padding: 50px;
+	background-color: #2E2C59;
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	border-top: 3px solid #FFFFFE;
+}
+
+#footer .main {
+	font-size: 30px;
+}
+
+#footer .main i {
+	color: #FFFFFE;
+	margin-left: 10px;
+	margin-right: 10px;
+	transition: 1s;
+}
+
+#footer .main i:hover {
+	color: #569FCA;
+}

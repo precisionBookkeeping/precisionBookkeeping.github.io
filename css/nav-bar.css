@@ -1,0 +1,155 @@
+#nav-bar {
+	height: 60px;
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	padding-left: 100px;
+	padding-right: 100px;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    transition: 2s;
+}
+
+
+.logo {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 10px;
+	margin-right: 80px;
+	width: 100px;
+}
+
+#nav-bar .main {
+	height: 100%;
+	width: 100%;
+}
+
+#nav-bar *:not(i) {
+	font-family: 'Exo', serif;
+}
+
+#nav-bar div, #nav-bar div a {
+	color: #FFFFFE;
+	text-decoration: none;
+}
+
+#links a { 
+	color: #FFFFFE;
+	margin-right: 20px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+#links a:hover { 
+	color: #2E2C59;
+}
+
+#nav-bar #links {
+	height: 100%;
+	display: flex;
+ 	align-items: center;
+  	justify-content: center;
+}
+
+#nav-bar #navLogo {
+	position: relative;
+    margin: 0px;
+    margin-right: 10px;
+	float: right;
+ 	transition: 1s;
+    margin:0 auto;
+    cursor: pointer;
+    height: 100%;
+    text-align: right;
+}
+
+#navLogo img {
+	right: 0;
+	height: 100%;
+	padding: 3px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+
+}
+
+#logo img#top:hover {
+  opacity:0;
+}
+
+#menu {
+    color: #EFE6DD;
+    font-size: 25px;
+}
+
+.fa-bars {
+	float: left;
+	cursor: pointer;
+	transition: 1s;
+	padding-top: 15px;
+	z-index: 10000;
+	color: #FFFFFE;
+}
+
+.fa-bars:hover {
+	color: #8EDCE6 !important;
+}
+
+@media only screen and (max-width: 40em)  { 
+  	#nav-bar {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.mobile-menu {
+		z-index: 10000;
+		position: fixed;
+		left: 0;
+		top: 0;
+		height: 100vh;
+		width:100vw;
+    	background-color:rgba(86,159,202,0.80); 
+    	text-align: center;
+    	padding-top: 100px;
+    	transition: 1s;
+    	display: none;
+	}
+
+
+	.mobile-menu a {
+		color: #FFFFFF;
+		display: block;
+		padding-top: 20px;
+		font-size: 40px;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	#close-menu {
+		position: fixed;
+		float: right;
+		right: 0;
+		top: 0;
+		padding-right: 20px;
+		text-decoration: none;
+	}
+}
+
+@media only screen and (min-width: 40em) and (max-width: 64em)  { 
+  	#nav-bar {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+
+@media only screen and (max-width: 64em) {
+	.logo {
+		margin-right: 10px;
+	}
+}
+
+
+

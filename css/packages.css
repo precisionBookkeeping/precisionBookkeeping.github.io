@@ -1,0 +1,176 @@
+#packages {
+	padding: 0;
+	background: linear-gradient(90deg, #2E2C59 50%, #8B8D8C 50%);
+}
+
+#packages .title {
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 20px;
+	font-size: 28px;
+}
+
+.package {
+	padding: 30px !important;
+	height: 800px;
+	min-height: 30px;
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+}
+
+.package .content {
+	max-width: 500px;
+}
+
+.first {
+	background-color: #2E2C59;
+	color: #FFFFFE;
+}
+
+#flowers {
+	width: 60%;
+	float: right;
+}
+
+.second {
+	background-color: #FFFFFE;
+	color: #2E2C59;
+}
+
+.third {
+	background-color: #8B8D8C;
+	color: #FFFFFE;
+}
+
+.package .title {
+	text-align: left;
+}
+
+.first .title span {
+	background-color: #569FCA;
+}
+
+.package .text {
+	font-size: x-small;
+}
+
+.text {
+	/*height: 500px;*/
+	float: right;
+}
+
+.cost {
+	margin: 30px; 
+	margin-left: 10px !important;
+	width: 300px;
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+	border: solid #2E2C59 2px;
+}
+
+.first .cost {
+	border: solid #FFFFFE 2px;
+	height: 80px;
+}
+
+.second .cost {
+	height: 80px;
+}
+
+.third .cost {
+	height: 100px;
+}
+
+.price {
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+	height: 100%;
+	background-color: #2E2C59;
+	line-height: 0.7;
+}
+
+.first .price {
+	color: #2E2C59;
+	background-color: #FFFFFE;
+}
+
+.upperContent {
+	height: 510px;
+}
+
+.lowerContent {
+	height: 200px;
+}
+
+.second .price {
+	color: #FFFFFE;
+}
+
+.third .price {
+	color: #569FCA;
+}
+
+.pounds {
+	font-size: xx-large;
+}
+
+.first .description {
+	color: #FFFFFE;
+}
+
+.description {
+	color: #2E2C59;
+}
+
+.pm {
+	margin-left: 20px;
+	font-size: small;
+}
+
+.from {
+	position: absolute;
+	font-size: small;
+	margin-left: -18px;
+}
+
+.third ul {
+	font-size: x-small;
+	line-height: 1;
+}
+
+.image:not(#flowers) {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.first .image {
+	width: 80%;	
+}
+
+.second .image {
+	width: 100%;	
+}
+
+.third .image {
+	width: 90%;	
+}
+
+.extra-info {
+	font-size: x-small;
+	margin: 10px !important;
+	width: 90%;
+}
+
+.extra-info > * {
+	padding: 5px !important;
+}
+
+@media only screen and (min-width: 40em) and (max-width: 64em){ 
+	.package {
+		float: left !important;
+		clear: both;
+	}
+}
