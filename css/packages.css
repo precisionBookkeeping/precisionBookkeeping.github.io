@@ -17,6 +17,7 @@
 	display: flex;
  	justify-content: center;
  	align-items: center;
+ 	width: 100%;
 }
 
 .package .content {
@@ -169,8 +170,10 @@
 }
 
 @media only screen and (min-width: 40em) and (max-width: 64em){ 
+
 	.package {
+		width: 100%;
 		float: left !important;
-		clear: both;
+		/*clear: both;*/
 	}
 }
